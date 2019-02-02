@@ -1,0 +1,14 @@
+#!/bin/bash
+# Config the environment 
+
+
+npm install @azure/event-hubs --save
+git clone https://github.com/Azure/azure-event-hubs-node
+cd az*
+cd client
+
+npm i
+npm run build
+node dist/examples/simpleSender.js
+
+echo "Initialize ran succesfully. Configure the .env now, then run produce"

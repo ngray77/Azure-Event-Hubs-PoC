@@ -1,11 +1,18 @@
 # Azure-Event-Hubs-PoC
 
-1. Skim https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-node-get-started-send
-2. Follow the Azure console instructions to create a Kafka-enabled topic
-3. Run the initialize shell script
+* Clone this repo
+* Change to the cloned directory
+```cd Azure-Event-Hubs-PoC```
+* Skim https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-node-get-started-send
+* Follow the Azure console instructions to create a Kafka-enabled topic
+* Run the initialize shell script
 ```shell
- chmod 755 initialize
- initialize
+chmod 755 initialize
+chmod 755 poc-produce
+initialize
 ```
-4. Follow the .env configuration steps
-5. Run the poc-produce shell script
+* Follow the .env configuration steps
+* Run the poc-produce shell script
+```shell
+poc-produce
+```

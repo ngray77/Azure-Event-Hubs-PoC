@@ -9,6 +9,5 @@ cd client
 
 npm i
 npm run build
-node dist/examples/simpleSender.js
 
 echo "Initialize ran succesfully. Configure the .env now, then run produce"
